@@ -1,0 +1,144 @@
+{
+  "id": "5e8fbbdb-1996-4294-92c7-bb9bac3f5999",
+  "title": "what is Company Overview",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is Company Overview"
+    },
+    {
+      "role": "assistant",
+      "content": "[Source: Enterprise_RAG_Training_Handbook_100_Pages (1).pdf, page 1]\n\nCompany Overview - Chapter 1 Page 1 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms.",
+      "sources": [
+        {
+          "text": "Company Overview - Chapter 1 Page 1 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 1,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p1-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 21 Page 21 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 21,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p21-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 51 Page 51 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 51,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p51-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 31 Page 31 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 31,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p31-c0"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": " How are internships selected?"
+    },
+    {
+      "role": "assistant",
+      "content": "[Source: Enterprise_RAG_Training_Handbook_100_Pages (1).pdf, page 79]\n\nHow are internships selected? Not specified in the provided context.",
+      "sources": [
+        {
+          "text": ". What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5. What is the difference between RAG and fine-tuning? 6. When should MFA be enabled? 7. How are internships selected? 8. What is the promotion process? 9. Describe the CI/CD pipeline. 10. What are the responsibilities of a Business Analyst? Additional Notes: This content intentionally repeats related terminology with variations to create realistic semantic retrieval challenges. Students should compare embedding models, vector databases, chunk sizes, overlap values, Top-K retrieval, and prompt templates while measuring retrieval quality.",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 16,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p16-c1"
+        },
+        {
+          "text": ". What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5. What is the difference between RAG and fine-tuning? 6. When should MFA be enabled? 7. How are internships selected? 8. What is the promotion process? 9. Describe the CI/CD pipeline. 10. What are the responsibilities of a Business Analyst? Additional Notes: This content intentionally repeats related terminology with variations to create realistic semantic retrieval challenges. Students should compare embedding models, vector databases, chunk sizes, overlap values, Top-K retrieval, and prompt templates while measuring retrieval quality.",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 29,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p29-c1"
+        },
+        {
+          "text": ". What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5. What is the difference between RAG and fine-tuning? 6. When should MFA be enabled? 7. How are internships selected? 8. What is the promotion process? 9. Describe the CI/CD pipeline. 10. What are the responsibilities of a Business Analyst? Additional Notes: This content intentionally repeats related terminology with variations to create realistic semantic retrieval challenges. Students should compare embedding models, vector databases, chunk sizes, overlap values, Top-K retrieval, and prompt templates while measuring retrieval quality.",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 40,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p40-c1"
+        },
+        {
+          "text": ". What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5. What is the difference between RAG and fine-tuning? 6. When should MFA be enabled? 7. How are internships selected? 8. What is the promotion process? 9. Describe the CI/CD pipeline. 10. What are the responsibilities of a Business Analyst? Additional Notes: This content intentionally repeats related terminology with variations to create realistic semantic retrieval challenges. Students should compare embedding models, vector databases, chunk sizes, overlap values, Top-K retrieval, and prompt templates while measuring retrieval quality.",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 79,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p79-c1"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "what are AWS fundamentals"
+    },
+    {
+      "role": "assistant",
+      "content": "[Source: Enterprise_RAG_Training_Handbook_100_Pages (1).pdf, page 36]\n\nAWS Fundamentals - Chapter 36 Page 36 AWS fundamentals include IAM, EC2, S3, Lambda, networking, monitoring, and billing.",
+      "sources": [
+        {
+          "text": "Cloud - Chapter 36 Page 36 AWS fundamentals, IAM, EC2, S3, Lambda, networking, monitoring, billing. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 36,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p36-c0"
+        },
+        {
+          "text": "Cloud - Chapter 56 Page 56 AWS fundamentals, IAM, EC2, S3, Lambda, networking, monitoring, billing. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 56,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p56-c0"
+        },
+        {
+          "text": "Cloud - Chapter 46 Page 46 AWS fundamentals, IAM, EC2, S3, Lambda, networking, monitoring, billing. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 46,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p46-c0"
+        },
+        {
+          "text": "Cloud - Chapter 76 Page 76 AWS fundamentals, IAM, EC2, S3, Lambda, networking, monitoring, billing. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4. Explain Git branching strategy. 5",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 76,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p76-c0"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "what is Business Analysis "
+    },
+    {
+      "role": "assistant",
+      "content": "[Source: Enterprise_RAG_Training_Handbook_100_Pages (1).pdf, page 48]\n\nBusiness Analysis - Chapter 48 Page 48 Requirements gathering, UML, BPMN, stakeholder analysis, user stories, acceptance criteria.",
+      "sources": [
+        {
+          "text": "Business Analysis - Chapter 48 Page 48 Requirements gathering, UML, BPMN, stakeholder analysis, user stories, acceptance criteria. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 48,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p48-c0"
+        },
+        {
+          "text": "Business Analysis - Chapter 8 Page 8 Requirements gathering, UML, BPMN, stakeholder analysis, user stories, acceptance criteria. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 8,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p8-c0"
+        },
+        {
+          "text": "Business Analysis - Chapter 18 Page 18 Requirements gathering, UML, BPMN, stakeholder analysis, user stories, acceptance criteria. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 18,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p18-c0"
+        },
+        {
+          "text": "Business Analysis - Chapter 88 Page 88 Requirements gathering, UML, BPMN, stakeholder analysis, user stories, acceptance criteria. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3. What are the password requirements? 4",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 88,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p88-c0"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-07-09T09:29:59.747Z",
+  "updatedAt": "2026-07-09T11:29:50.644Z"
+}

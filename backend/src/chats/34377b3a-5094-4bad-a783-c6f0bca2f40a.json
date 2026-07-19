@@ -1,0 +1,85 @@
+{
+  "id": "34377b3a-5094-4bad-a783-c6f0bca2f40a",
+  "title": "what is Company Overview",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is Company Overview"
+    },
+    {
+      "role": "assistant",
+      "content": "[Source: Enterprise_RAG_Training_Handbook_100_Pages (1).pdf, page 1]\n\nCompany Overview - Chapter 1 Page 1 \n\nThe company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms.",
+      "sources": [
+        {
+          "text": "Company Overview - Chapter 1 Page 1 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 1,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p1-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 21 Page 21 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 21,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p21-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 51 Page 51 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 51,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p51-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 31 Page 31 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 31,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p31-c0"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": "what is Company Overview"
+    },
+    {
+      "role": "assistant",
+      "content": "A company overview is a brief summary or description of a company's history, mission, values, products/services, target market, financial performance, and other key information. It provides an at-a-glance understanding of the company's overall strategy, goals, and operations.\n\nTypically, a company overview includes:\n\n1. Company history and background\n2. Mission statement and core values\n3. Products or services offered\n4. Target market and customer base\n5. Financial performance (revenue, profits, etc.)\n6. Key statistics and milestones\n7. Leadership team and organizational structure\n\nThe purpose of a company overview is to:\n\n* Provide an introduction to the company for new employees, investors, or partners\n* Help customers understand the company's value proposition and offerings\n* Facilitate research and due diligence by potential investors or partners\n* Showcase the company's brand identity and reputation",
+      "sources": []
+    },
+    {
+      "role": "user",
+      "content": "what is Company Overview"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't have that information in the uploaded documents.",
+      "sources": [
+        {
+          "text": "Company Overview - Chapter 1 Page 1 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 1,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p1-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 21 Page 21 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 21,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p21-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 51 Page 51 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 51,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p51-c0"
+        },
+        {
+          "text": "Company Overview - Chapter 31 Page 31 The company develops enterprise software, cloud solutions, AI applications, cybersecurity services, and business analytics platforms. This page is intentionally created as part of a realistic enterprise knowledge base for Retrieval-Augmented Generation (RAG) training. Students will use this handbook to practice: Document loading Text extraction Chunking strategies (200, 500, 1000 tokens) Chunk overlap experiments Embedding generation Vector indexing Semantic search Metadata filtering Hybrid search Reranking LLM prompting RAG evaluation using Recall, Precision, Hit@K, MRR, Faithfulness, and Answer Correctness. Scenario Employees frequently ask questions about company policies. The assistant must retrieve the relevant section before generating an answer. Similar concepts may appear across multiple chapters, requiring the retriever to locate the best context. Example Questions 1. What is the leave policy? 2. How is performance evaluated? 3",
+          "filename": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf",
+          "pageNumber": 31,
+          "chunkId": "Enterprise_RAG_Training_Handbook_100_Pages (1).pdf-p31-c0"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-07-09T00:20:02.741Z",
+  "updatedAt": "2026-07-09T00:22:10.088Z"
+}
