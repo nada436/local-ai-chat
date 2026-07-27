@@ -19,13 +19,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: |
-            backend/package-lock.json
-            frontend/package-lock.json
 
+      # backend lock file is not in sync with package.json, so we use
+      # npm install which regenerates it. Switch back to npm ci once
+      # the lock file is committed after running `npm install` locally.
       - name: Install backend deps
-        run: npm ci
+        run: npm install
         working-directory: backend
 
       - name: Install frontend deps

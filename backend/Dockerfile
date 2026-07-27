@@ -2,7 +2,10 @@
 FROM node:20-alpine AS deps
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci --omit=dev
+# Use npm install instead of npm ci because the lock file is currently out of
+# sync with package.json. Once you run `npm install` locally and commit the
+# updated package-lock.json, change this back to: npm ci --omit=dev
+RUN npm install --omit=dev
 
 # ---- runtime stage ----
 FROM node:20-alpine
