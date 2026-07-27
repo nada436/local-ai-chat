@@ -1,0 +1,55 @@
+services:
+
+  # ─── ChromaDB vector store ──────────────────────────────────────────────────
+  chromadb:
+    image: chromadb/chroma:latest
+    restart: unless-stopped
+    volumes:
+      - chroma_data:/chroma/.chroma/index
+    networks:
+      - ai-net
+
+  # ─── Backend (Node.js / Express) ────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./backend/.env          # copy .env.example → .env and customise
+    environment:
+      # Override localhost URLs so the backend reaches sibling containers
+      CHROMA_URL: http://chromadb:8000
+      # OLLAMA_BASE_URL is kept from .env — Ollama runs on the host machine
+    ports:
+      - "5000:5000"
+    volumes:
+      - backend_uploads:/app/src/uploads
+      - backend_chats:/app/src/chats
+    depends_on:
+      - chromadb
+    networks:
+      - ai-net
+
+  # ─── Frontend (React / Nginx) ───────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - ai-net
+
+# ─── Named volumes ─────────────────────────────────────────────────────────────
+volumes:
+  chroma_data:
+  backend_uploads:
+  backend_chats:
+
+# ─── Network ───────────────────────────────────────────────────────────────────
+networks:
+  ai-net:
+    driver: bridge
