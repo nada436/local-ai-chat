@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [main, master]
 
+# Allow the workflow to push images to GHCR
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   # ─── Lint ───────────────────────────────────────────────────────────────────
   lint:
@@ -18,7 +23,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       # backend lock file is not in sync with package.json, so we use
       # npm install which regenerates it. Switch back to npm ci once

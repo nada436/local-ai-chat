@@ -1,5 +1,5 @@
 # ---- deps stage ----
-FROM node:20-alpine AS deps
+FROM node:24-alpine AS deps
 WORKDIR /app
 COPY package*.json ./
 # Use npm install instead of npm ci because the lock file is currently out of
@@ -8,7 +8,7 @@ COPY package*.json ./
 RUN npm install --omit=dev
 
 # ---- runtime stage ----
-FROM node:20-alpine
+FROM node:24-alpine
 WORKDIR /app
 
 # whisper.cpp needs a C++ runtime; ffmpeg is used for audio conversion
